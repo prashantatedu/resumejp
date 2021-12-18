@@ -1,0 +1,365 @@
+/* Common Styles - Start */
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Common Styles - End */
+
+/* Section 1 - Start */
+.home {
+  width: 100vw;
+  height: 100vh;
+  background: url("/images/paper.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.home h2 {
+  width: 60rem;
+  height: 6rem;
+  font-size: 5rem;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+  border: 0.2rem solid black;
+  background-color: chocolate;
+  border-radius: 3rem;
+}
+
+.home img {
+  width: 30rem;
+  height: 30rem;
+  border: 0.1rem solid black;
+  border-radius: 50%;
+  border: 0.2rem solid red;
+}
+
+.profile-name {
+  width: 20rem;
+  font-size: 3rem;
+  font-weight: 700;
+  border: 0.2rem solid #6edaef;
+  text-align: center;
+  border-radius: 2rem;
+}
+
+.myprojects {
+  width: 18rem;
+  height: 5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+/* Section 1 - End   */
+
+/* Navbar - Starts */
+.mynavbar {
+  width: 100%;
+  height: 3rem;
+  background-color: #ff00ff50;
+  position: relative;
+}
+
+.profile-navbar {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  z-index: 50;
+}
+
+.navbar-link {
+  color: #000000;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-right: 3rem;
+  margin-top: 0.5rem;
+}
+
+.navbar-link:hover {
+  color: #ffffff;
+}
+
+/* Navbar - Ends */
+
+/* About me Start */
+.about-me {
+  width: 100vw;
+  height: 100vh;
+  background-color: #cccccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.section2-heading {
+  background-color: cyan;
+  width: 100%;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.portfolio-parts {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.about-left {
+  width: 25%;
+  height: 100%;
+  background-color: #003f8b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #ffffff;
+}
+
+.darkline {
+  width: 100%;
+  height: 0.2rem;
+  border: 0.1rem solid #000000;
+}
+
+.section-heading {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.contact-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 5rem;
+}
+
+.contact-details {
+  width: 90%;
+  height: 70%;
+  font-size: 1.5rem;
+}
+
+.contact-details span i {
+  margin-right: 1rem;
+  margin-bottom: 0.8rem;
+}
+.contact-details i {
+  color: lightsalmon;
+}
+
+.education-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 5rem;
+}
+
+.year-of-pass {
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+  color: orange;
+}
+.year-of-pass {
+  color: lightblue;
+}
+.degree {
+  font-size: 2.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.institution-name {
+  font-size: 1.8rem;
+  color: #ffffff95;
+}
+
+.languages-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 5rem;
+}
+
+.languages {
+  margin-bottom: 2rem;
+}
+
+.language {
+  width: 20rem;
+  height: 1.5rem;
+  background-color: #ccc;
+  margin: 0.3rem;
+  border-radius: 0.3rem;
+  box-shadow: 0.1rem 0.1rem 0.1rem #555;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+.lang-text {
+  font-size: 1.3rem;
+  color: #fff;
+  font-weight: 600;
+  position: absolute;
+  text-transform: uppercase;
+}
+.lang-text span {
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.lang-percent {
+  width: 0%;
+  height: 100%;
+  background-color: #e41c6f;
+  border-radius: 0.3rem;
+  transition: width 0.5s 0.5s ease-in-out;
+}
+
+.about-right {
+  width: 75%;
+  height: 100%;
+  background-color: #cccccc;
+  margin-left: 5rem;
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.profile-text {
+  font-size: 1.8rem;
+  color: #000000;
+  text-shadow: 0.1rem 0.1rem 0.1rem #cccccc;
+}
+
+.company {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.company-year {
+  width: 20%;
+  margin-right: 0.5rem;
+}
+
+.company-duration {
+  font-size: 1.5rem;
+  color: #00000070;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.company-name {
+  font-size: 2rem;
+  color: #00000070;
+  font-weight: 900;
+}
+
+.rolename-details {
+  width: 80%;
+}
+
+.role-name {
+  font-size: 1.5rem;
+  color: #000000;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.role-tasks {
+  font-size: 1.8rem;
+  color: #000000;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+
+.professional-skills {
+  position: relative;
+}
+
+.skills {
+  margin-bottom: 2rem;
+}
+
+.skill {
+  width: 80rem;
+  height: 1.5rem;
+  background-color: #ccc;
+  margin: 0.3rem;
+  border-radius: 0.3rem;
+  box-shadow: 0.1rem 0.1rem 0.1rem #555;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+.skill-text {
+  font-size: 1.3rem;
+  color: #fff;
+  font-weight: 600;
+  position: absolute;
+  text-transform: uppercase;
+}
+.skill-text span {
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.skill-percent {
+  width: 0%;
+  height: 100%;
+  background-color: #e41c6f;
+  border-radius: 0.3rem;
+  transition: width 0.5s 0.5s ease-in-out;
+}
+
+.profile-desc {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 5rem;
+}
+.interest-details {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  justify-content: center;
+}
+
+.selfinterest {
+  margin-right: 2.5rem;
+}
+
+.selfinterest span {
+  font-size: 1.5rem;
+}
+
+.selfinterest i {
+  color: coral;
+  margin-right: 0.5rem;
+}
+
+/* About me End */
