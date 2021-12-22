@@ -19,7 +19,7 @@ html {
 .home {
   width: 100vw;
   height: 100vh;
-  background: url("/images/paper.jpg");
+  background: url(paper.jpg);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
